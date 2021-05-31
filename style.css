@@ -1,0 +1,101 @@
+h1{
+    color: rgb(255, 166, 0)
+}
+
+/* *{
+    border:solid
+} */
+
+p
+{
+    color: rgb(255, 255, 255);
+}
+
+/* .header *
+{
+    border:solid;
+} */
+
+.header
+{
+    display: flex;
+    /* margin-left: 10px; */
+    padding: 20px;
+    background-color: #000000;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.menu
+{
+    font-style: bold;
+    margin-right:30px;
+}
+
+.description
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.games
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer
+{
+    display:flex;
+    justify-content: flex-end;
+}
+p,h1
+{
+    text-align: center;
+    font-family:'Comic Sans MS';
+}
+
+body
+{
+    background-color:#000000;
+}
+
+a:link
+{
+    color: white;
+}
+
+a:visited
+{
+    color:white;
+}
+
+.menu a
+{
+    margin-left:30px;
+}
+
+.item
+{
+    position:relative;
+}
+
+.item p
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p
+{
+    opacity:1
+}
+
+.item:hover img
+{
+    opacity:0.3    
+}
